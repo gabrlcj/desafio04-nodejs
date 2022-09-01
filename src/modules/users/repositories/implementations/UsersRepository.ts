@@ -27,7 +27,6 @@ class UsersRepository implements IUsersRepository {
       created_at: new Date(),
       updated_at: new Date(),
     });
-    console.log(user);
 
     this.users.push(user);
 
